@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/page.css">
   <link rel="shortcut icon" href="svg/logo.svg">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <script defer="defer" src="javascript/script.js"></script>
   <title>Mesto</title>
 </head>
@@ -19,15 +21,71 @@
         <div class="profile__content_avatar"></div>
         <div class="profile__content_info">
           <div class="profile__content_info-namebutton">
-            <h2 class="profile_content_info-name">Жак-Ив Кусто</h2>
-            <button type="button" class="profile_content_info-button"></button>
+            <h2 class="profile_content_info-name text_nowrap">Жак-Ив Кусто</h2>
+            <button type="button" class="profile_content_info-button button button-60"></button>
           </div>
-          <p class="profile__content_info-description">Исследователь Океана</p>
+          <p class="profile__content_info-description text_nowrap">Исследователь Океана</p>
         </div>
       </div>
-      <button type="button" class="profile__add-button"></button>
+      <button type="button" class="profile__add-button button button-60"></button>
+    </section>
+        
+    <section class="elements">
+      <ul class="elements__list">
+        <li class="elements__list_item">
+            <img class="elements__list_item-img" src="images/castle.png" alt="castle">
+          <div class="elements__list_item-block">
+            <p class="list__item_block-description text_nowrap">Карачаевск</p>
+            <button class="list__item_block-heart button button-60"></button>
+          </div>
+        </li>
+
+        <li class="elements__list_item">
+            <img class="elements__list_item-img" src="images/field.png" alt="field">
+          <div class="elements__list_item-block">
+            <p class="list__item_block-description text_nowrap">Домбай</p>
+            <button class="list__item_block-heart button button-60"></button>
+          </div>
+        </li>
+
+        <li class="elements__list_item">
+            <img class="elements__list_item-img" src="images/mountain.png" alt="mountain">
+          <div class="elements__list_item-block">
+            <p class="list__item_block-description text_nowrap">Гора Эльбрус</p>
+            <button class="list__item_block-heart button button-60"></button>
+          </div>
+        </li>
+
+        <li class="elements__list_item">
+          <img class="elements__list_item-img" src="images/field.png" alt="field">
+        <div class="elements__list_item-block">
+          <p class="list__item_block-description text_nowrap">Домбай</p>
+          <button class="list__item_block-heart button button-60"></button>
+        </div>
+      </li>
+
+        <li class="elements__list_item">
+          <img class="elements__list_item-img" src="images/mountain.png" alt="mountain">
+        <div class="elements__list_item-block">
+          <p class="list__item_block-description text_nowrap">Гора Эльбрус</p>
+          <button class="list__item_block-heart button button-60"></button>
+        </div>
+      </li>
+
+        <li class="elements__list_item">
+            <img class="elements__list_item-img" src="images/castle.png" alt="castle">
+          <div class="elements__list_item-block">
+            <p class="list__item_block-description text_nowrap">Карачаево-Черкесс</p>
+            <button class="list__item_block-heart button button-60"></button>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
   
+  <footer class="footer">
+    <p class="footer__copyright">© 2020 Mesto</p>
+  </footer>
+
 </body>
 </html>
