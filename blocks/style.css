@@ -60,7 +60,7 @@ body {
   height: 120px;
   border-radius: 50%;
   background-size: cover;
-  background-image: url(/svg/Kusto.svg);
+  background-image: url(../svg/Kusto.svg);
 }
 
 .profile__content_info {
@@ -71,13 +71,15 @@ body {
 
 .profile__content_info-namebutton {
   display: flex;
+  overflow: visible;
   gap: 18px;
   max-width: 336px;
   max-height: 39px;
 }
 
 .profile_content_info-name {
-  overflow: visible;
+  max-width: 294px;
+  height: 48px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: #fff;
@@ -94,7 +96,7 @@ body {
   background-color: #000;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/svg/pen.svg);
+  background-image: url(../svg/pen.svg);
   cursor: pointer;
 }
 
@@ -115,7 +117,7 @@ body {
   background-color: #000;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/svg/plus.svg);
+  background-image: url(../svg/plus.svg);
   cursor: pointer;
 }
 
@@ -178,7 +180,7 @@ body {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/svg/heart.svg);
+  background-image: url(../svg/heart.svg);
   cursor: pointer;
 }
 
@@ -306,6 +308,6 @@ body {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(/svg/Close\ Icon.svg);
+  background-image: url(../svg/CloseIcon.svg);
   cursor: pointer;
 }
